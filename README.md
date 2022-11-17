@@ -25,6 +25,7 @@ This project is a web application with 3 pages and each performing a different f
 - React Calculator by Andrew H Farmer @ahfarmer
 
 ## Screenshots
+<img src="https://user-images.githubusercontent.com/16641038/202554727-6fa931d0-aa15-40b1-9a34-1a5903c51df4.gif"  width=50% height=50%> 
 
 ## Install
 
