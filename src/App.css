@@ -37,17 +37,17 @@
 	}
 }
 
-.headerlink-dot {
-	margin-top: -0.5rem;
-	opacity: 0;
-	transition: opacity 200ms linear;
+.iframe-container {
+	overflow: hidden;
+	padding-top: 56.25%; /* 16:9*/
+	position: relative;
 }
 
-.headerlink-title:hover .headerlink-dot {
-	opacity: 1;
-}
-
-.headerlink-dot-active {
-	margin-top: -0.5rem;
-	display: block;
+.iframe-container iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }

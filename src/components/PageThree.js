@@ -1,3 +1,4 @@
+import '../App.css';
 import { Card, Text, Container } from '@nextui-org/react';
 
 export default function PageThree() {
@@ -11,24 +12,19 @@ export default function PageThree() {
 
 	return (
 		<Container display="flex" justify="center">
-			<Card css={{ p: '$6', mt: '$2xl', mw: '800px', mh: '800px' }}>
-				<Card.Header>
-					<Card.Body css={{ py: '$2' }}>
-						<Text
-							h3
-							size={60}
-							css={{
-								textGradient: '45deg, $yellow600 -20%, $red600 100%',
-							}}
-							weight="bold"
-						>
-							This is the calculator
-						</Text>
-						<div dangerouslySetInnerHTML={iframe()} />
-					</Card.Body>
-				</Card.Header>
-				<Card.Footer css={{ ml: '$4xl' }}></Card.Footer>
-			</Card>
+			<Text
+				h3
+				size={60}
+				css={{
+					textGradient: '45deg, $yellow600 -20%, $red600 100%',
+				}}
+				weight="bold"
+			>
+				This is the calculator
+			</Text>
+			<Container>
+				<div class="iframe-container" dangerouslySetInnerHTML={iframe()} />
+			</Container>
 		</Container>
 	);
 }
