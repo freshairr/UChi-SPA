@@ -41,7 +41,7 @@ export default function PageOne() {
 							onClick={handleChange}
 							style={showText ? { display: 'none' } : null}
 						>
-							<b>Show hidden text</b>
+							<b>Click</b>
 						</Button>
 					</Grid.Container>
 				</Card.Footer>
